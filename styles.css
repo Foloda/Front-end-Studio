@@ -155,7 +155,7 @@ figcaption{
 } */
 
 .learning-content {
-  margin: 48px 0;
+  margin-top: 140px;
 }
 
 /* learning directions */
@@ -188,14 +188,14 @@ figcaption{
 .list-card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 18px;
-  margin: 18px 0;
+  column-gap: 36px;
+  margin: 22px 0;
 }
 .cards {
-  border: 1px solid #6b7280;
+  background-color: #ffffff;
   border-radius: 16px;
 }
-.card-head {
+.card-head-01 {
   height: 200px;
   background-color: orchid;
   font-size: 36px;
@@ -203,11 +203,71 @@ figcaption{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 12px;
+  padding-left: 22px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
-.card-number span {
+.card-main {
   display: flex;
-  border: 1px solid rgb(110, 36, 108);
+  flex-direction: column;
+  padding: 30px;
+}
+.card-main span {
+  font-size: 12px;
+  color: #6b7280;
+  font-weight: 700;
+  line-height: 1.85;
+}
+.card-title {
+  font-size: 22px;
+  line-height: 3;
+  color: #1b1e32;
+}
+.card-description {
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.card-tags {
+  display: inline-flex;
+  gap: 12px;
+  margin: 30px 0 12px 0;
+}
+.card-tags span {
+  border: 1px solid #6b7280;
+  font-size: 12px;
   border-radius: 22px;
-  padding: 12px;
+  padding: 6px 14px;
+}
+.card-main a {
+  text-decoration: none;
+  color: #5b52e5;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 18px;
+}
+
+.card-head-02 {
+  height: 200px;
+  background-color: lightblue;
+  font-size: 36px;
+  color: rgb(39, 62, 176);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 22px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.card-head-03 {
+  height: 200px;
+  background-color: rgba(2, 156, 61, 0.363);
+  font-size: 36px;
+  color: rgb(2, 156, 61);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 22px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
