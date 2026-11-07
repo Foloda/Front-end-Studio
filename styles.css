@@ -8,10 +8,7 @@ body {
   background-color: #f4f6fb;
   font-family: "Noto", sans-serif;
 }
-main {
-  max-width: 1200px;
-  margin-inline: auto;
-}
+
 @font-face {
   font-family: "Noto";
   src: url("assets/NotoSansGeorgian.ttf") format("truetype");
@@ -38,6 +35,7 @@ main {
 .logo-title {
   font-size: 18px;
   font-weight: 800;
+
 }
 .logo {
   background-color: #b2e30e;
@@ -61,9 +59,24 @@ main {
   border-radius: 12px;
   padding: 12px 16px;
 }
+
+.section-content{
+ width: 100%;
+}
+.content-inner{
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  padding: 70px 0;
+}
+
+
+/* hero section */
+
+
 .hero-container {
-  margin: 48px 0;
   display: flex;
+  justify-content: space-between;
   gap: 28px;
 }
 .section-title {
@@ -129,8 +142,9 @@ main {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  gap: 12px;
 }
-.hero-facts li {
+.hero-facts strong{
   color: #1b1e32;
   font-size: 16px;
   line-height: 2;
@@ -138,6 +152,7 @@ main {
 
 .hero-facts span {
   color: #6b7280;
+  font-size: 14px;
 }
 
 /* .hero-figure{
@@ -154,9 +169,6 @@ figcaption{
     color: #6B7280;
 } */
 
-.learning-content {
-  margin-top: 140px;
-}
 
 /* learning directions */
 .card-section-title {
@@ -183,7 +195,7 @@ figcaption{
   color: #1b1e32;
   font-size: 28px;
   font-weight: bold;
-  line-height: 1.4;
+  line-height: 4;
 }
 .list-card {
   display: grid;
@@ -270,4 +282,130 @@ figcaption{
   padding-left: 22px;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+}
+
+.div-container{
+  display: flex;
+  justify-content: space-between;
+}
+.intor-text{
+  color: #6b7280;
+  font-size: 18px;
+}
+.right-side aside{
+  margin: 16px 0 16px 0;
+  padding: 16px;
+  background-color: #F0F3E9;
+  border-left: 4px solid #A2BC57;
+}
+.quote-box{
+  font-size: 16px;
+  color: #464950;
+  line-height: 1.85;
+}
+.quote-box span{
+  font-size: 14px;
+  color: #6b7280a7;
+  line-height: 1.5;
+}
+.list-title{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 3;
+}
+.numb-list{
+  font-size: 16px;
+  line-height: 2;
+  margin-left: 36px;
+}
+.boxed-title{
+    border: 1px solid #6b7280;
+    border-radius: 16px;
+    padding: 22px 12px;
+    margin: 16px 0 16px 0;
+    font-size: 16px;
+}
+.code-block{
+  background-color: #19233E;
+  padding: 18px;
+  border-radius: 16px;
+  color: #93C256;
+}
+
+.left-side{
+  margin-left: 100px;
+  
+}
+
+.left-side-article{
+  background-color: #F1F5E8;
+  padding: 22px 32px;
+  border-radius: 16px;
+  border: 1px solid #E4E9D4;
+  width: 400px;
+}
+.left-side-article h3{
+  line-height: 3;
+  font-size: 22px;
+  color: #19233E;
+}
+.left-side-article p{
+  color: #7A6E6E;
+  font-size: 16px;
+  line-height: 1.85;
+}
+
+/* table styling */
+
+.table-wrapper{
+  border: 1px solid #cccccc;
+  border-radius: 16px;
+  overflow: hidden;
+}
+table {
+  border: 0;
+  border-spacing: 0;
+  width: 100%;
+  
+}
+th, td{
+  border: 1px solid #E5E8EF;
+  padding: 24px;
+  
+}
+thead{
+  background-color: #19233E;
+  color: white;
+  text-align: left;
+}
+.table-title{
+  background-color: #ffffff;
+  color: #403C4A;
+}
+.table-row-title{
+  background-color: #F3F5FA;
+  color: #403C4A;
+  text-align: left;
+}
+.first-row{
+  background-color: #ffffff;
+}
+.second-row{
+  background-color: #FAFBF8;
+}
+tfoot{
+  background-color: #EEF3E0;
+  text-align: left;
+  color: #666257;
+}
+
+.media-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+
+video{
+  border-radius: 16px;  
 }
