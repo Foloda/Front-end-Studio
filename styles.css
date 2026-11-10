@@ -397,9 +397,24 @@ tfoot {
 .media-container {
   display: flex;
   justify-content: space-between;
-  gap: 12px;
+  gap: 22px;
 }
 
 video {
   border-radius: 16px;
+}
+
+.audio-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e4e9d4;
+}
+.audio-card div {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+audio {
+  flex: 1;
 }
