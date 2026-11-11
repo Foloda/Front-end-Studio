@@ -153,19 +153,17 @@ body {
   font-size: 14px;
 }
 
-/* .hero-figure{
-    background: linear-gradient(135deg, #6b728059,#6d806b5a);
-    
-    border-radius: 22px;
-    text-align: center;
-    padding: 0 18px;
+.hero-right-side figure {
+  background: linear-gradient(135deg, #6b728059, #6d806b5a);
+  border-radius: 22px;
+  text-align: center;
+  padding: 18px;
 }
 
-
-figcaption{
-    font-size: 14px;
-    color: #6B7280;
-} */
+.hero-right-side figcaption {
+  font-size: 14px;
+  color: #6b7280;
+}
 
 /* learning directions */
 .card-section-title {
@@ -403,6 +401,13 @@ tfoot {
 video {
   border-radius: 16px;
 }
+.video-card {
+  padding: 18px;
+  background-color: #19233eef;
+  color: #e5e8ef;
+  text-align: center;
+  border-radius: 16px;
+}
 
 .audio-card {
   background-color: #ffffff;
@@ -417,4 +422,12 @@ video {
 }
 audio {
   flex: 1;
+}
+.audio-card > div {
+  height: 100%;
+}
+.audio-card a {
+  text-decoration: none;
+  position: relative;
+  margin-top: auto;
 }
